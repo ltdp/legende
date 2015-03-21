@@ -1,0 +1,56 @@
+/* ------ Legende folders ------ */
+            ul.legend {
+              padding: 10px 0;
+              text-align: center;
+            }
+           
+           ul.legend li {
+              display: inline-block;
+              background-repeat: no-repeat;
+              background-position: left center;
+              padding: 10px 15px 10px 30px;
+            }
+
+            .forum-unread {
+              background-image: url("./images/forum_unread.png");
+            }
+
+            .forum-read {
+              background-image: url("./images/forum_read.png");
+            }
+
+            .forum-locked {
+              background-image: url("./images/forum_read_locked.png");
+            }
+
+            .forum-link {
+              background-image: url("./images/forum_link.png");
+            }
+        	
+			/* url("./images/forum_unread.png"); */
+
+        .post-unread {
+            background-image: url("./images/topic_unread.png");
+        }
+        .post-read {
+            background-image: url("./images/topic_read.png");
+        }
+        .post-announce {
+            background-image: url("./images/announce_read.png");
+        }
+        .post-hot {
+            background-image: url("./images/topic_read_hot.png");
+        }
+        .post-sticky {
+            background-image: url("./images/sticky_read.png");
+        }
+        .post-locked {
+            background-image: url("./images/topic_read_locked.png");
+        }
+        .post-moved {
+            background-image: url("./images/topic_moved.png");
+        }
+        .post-mine {
+            background-image: url("./images/topic_read_mine.png");
+        }
+/* ------ End legende folders ------ */

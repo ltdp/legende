@@ -1,0 +1,10 @@
+services:     
+    ltdp.legende.listener:
+        class: ltdp\legende\event\listener
+        arguments:
+            - @dbal.conn
+            - @user
+            - %core.root_path%
+            - %core.php_ext%
+        tags:
+            - { name: event.listener }
